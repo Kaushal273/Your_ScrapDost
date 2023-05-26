@@ -117,7 +117,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #006D3C;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -140,7 +140,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  height: 76px;
+  width: 174px;
 }
 
 /**
@@ -201,7 +202,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #37423b;
+  color: #ffff3f;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -217,7 +218,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5fcf80;
+  color: #d4d700;
+  /* text-decoration: dashed; */
 }
 
 .navbar .dropdown ul {
@@ -401,15 +403,16 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 100vh;
+  /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   position: relative;
+  /* background-color: #ffffff; */
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -427,6 +430,16 @@ h6 {
   }
 }
 
+.mySlides{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -434,12 +447,14 @@ h6 {
   line-height: 56px;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  z-index: 1;
 }
 
 #hero h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
+  z-index: 1;
 }
 
 #hero .btn-get-started {
