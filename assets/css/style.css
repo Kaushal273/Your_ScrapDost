@@ -711,10 +711,21 @@ section {
   padding-top: 0px;
 }
 
+.features .icon-box .pricemenuimg {
+  width: 40px;
+  height: 60px;
+
+}
+.features .icon-box #mixplastic {
+  padding: 3px;
+  width: 50px;
+  height: 60px;
+
+}
 .features .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 2px;
   transition: 0.3s;
   border: 1px solid #eef0ef;
 }
