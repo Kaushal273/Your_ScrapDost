@@ -1583,3 +1583,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.mySlides{
+  filter: brightness(0.5);
+}
