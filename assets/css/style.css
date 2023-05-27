@@ -112,7 +112,7 @@ h6 {
   background: #006D3C;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 0px 0;  /*original: 15px 0 */
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
@@ -1591,6 +1591,31 @@ section {
   filter: brightness(0.5);
 }
 
+
+#Slide1{
+  margin-top: -250px;
+  /* width: 100%; */
+}
+
+#Slide2{
+  margin-top: -500px;
+}
+
+#Slide3{
+  margin-top: -250px;
+}
+
+#Slide4{
+  margin-top: -250px;
+}
+
+#Slide5{
+  margin-top: -500px;
+}
+
+#Slide6{
+  margin-top: -150px;
+
 /* Whatsapp float button */
 
 .whatsapp_float .whatsapp_btn{
@@ -1598,4 +1623,5 @@ section {
   position: fixed;
   bottom: 30px;
   left: 20px;
+
 }
