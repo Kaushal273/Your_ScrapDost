@@ -614,10 +614,14 @@ section {
   padding: 30px 0;
 }
 
+.counts .counters{
+  margin-left: 300px;
+}
+
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: #bfd200;
   font-weight: 700;
 }
 
