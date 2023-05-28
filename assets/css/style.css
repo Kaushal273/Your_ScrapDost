@@ -594,7 +594,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5fcf80;
+  color: #55a630;
   padding-left: 4%;
 }
 .fst-italic{
@@ -771,11 +771,11 @@ section {
 }
 
 .features .icon-box:hover {
-  border-color: #5fcf80;
+  border-color: #006b3c;
 }
 
 .features .icon-box:hover h3 a {
-  color: #5fcf80;
+  color: #006b3c;
 }
 
 /*--------------------------------------------------------------
