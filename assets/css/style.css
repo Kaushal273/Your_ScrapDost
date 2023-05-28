@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #80b918;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7ed899;
+  background: #bfd200;
   color: #fff;
 }
 
@@ -1439,7 +1439,10 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #80b918;
+
+  background: #55a630;
+
+
 }
 
 @keyframes animate-loading {
@@ -1598,7 +1601,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #80b918;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1611,7 +1614,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: #bfd200;
   color: #fff;
   text-decoration: none;
 }
