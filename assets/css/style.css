@@ -919,8 +919,9 @@ section {
   margin: 30px 15px;
   min-height: 200px;
   border: 1px solid #eef0ef;
+  border-radius: 12px;
   position: relative;
-  background: #fff;
+  background: rgb(177, 186, 177);
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -940,13 +941,13 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #fff;
   margin: 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c1ecce;
+  color: #80b918;
   font-size: 26px;
 }
 
@@ -966,6 +967,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: #111;
 }
 
 .testimonials .swiper-pagination {
@@ -978,11 +980,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5fcf80;
+  border: 1px solid #80b918;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5fcf80;
+  background-color: #80b918;
 }
 
 @media (max-width: 767px) {
@@ -1320,7 +1322,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #5fcf80;
+  color: #bfd200;
   float: left;
   width: 44px;
   height: 44px;
@@ -1355,7 +1357,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #5fcf80;
+  background: #bfd200;
   color: #fff;
 }
 
@@ -1418,7 +1420,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5fcf80;
+  border-color: #006D3C;
 }
 
 .contact .php-email-form input {
@@ -1440,7 +1442,7 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
 
-  background: #55a630;
+  background: #80b918;
 
 
 }
